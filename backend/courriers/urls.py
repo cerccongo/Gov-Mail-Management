@@ -7,3 +7,6 @@ router.register("sortants", CourrierSortantViewSet)
 router.register("piecesjointes", PieceJointeViewSet)
 
 urlpatterns = router.urls
+urlpatterns = [
+    path("add/", public_add_courrier, name="public_add_courrier"),
+]
