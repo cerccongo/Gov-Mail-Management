@@ -4,7 +4,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "change-me-in-production"
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ["skmail.onrender.com", "localhost", "127.0.0.1"]
 
 INSTALLED_APPS = [
