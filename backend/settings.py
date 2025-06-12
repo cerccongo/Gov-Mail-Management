@@ -17,7 +17,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "backend.courriers",
     "backend.users",
-    "corsheaders",
+    "backend.corsheaders",
 ]
 
 MIDDLEWARE = [
