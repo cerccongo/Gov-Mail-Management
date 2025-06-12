@@ -2,6 +2,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend/settings.py')
-
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
 application = get_wsgi_application()
