@@ -5,6 +5,9 @@ class PieceJointe(models.Model):
     fichier = models.FileField(upload_to="pieces_jointes/")
     nom = models.CharField(max_length=255)
 
+class Courrier(models.Model):
+    objet = models.CharField(max_length=255)
+
 class CourrierEntrant(models.Model):
     date_reception = models.DateField()
     numero_enregistrement = models.CharField(max_length=50, unique=True)
